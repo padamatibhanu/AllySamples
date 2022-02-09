@@ -28,7 +28,7 @@ public class A11yTestOne {
 		driver.manage().timeouts().pageLoadTimeout(Duration.ofSeconds(20));
 		//driver.get("https://www.ea.com/sports");
 		//driver.get("https://www.selenium.dev");
-		driver.get("https://www.amazon.com");
+		driver.get("https://www.amazon.com/");
 	}
 	
 	@Test(enabled=false)
