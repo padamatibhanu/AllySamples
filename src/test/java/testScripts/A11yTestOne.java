@@ -71,6 +71,7 @@ public class A11yTestOne {
 		List<Rule> violations = results.getViolations();
 		System.out.println("No.of violations with tag name:"+ violations.size());
 		System.out.println("No.of violations with tag name:"+ violations.size());
+		System.out.println("No.of violations with tag name:"+ violations);
 		AxeReporter.writeResultsToJsonFile(reportFile, results);
 		AxeReporter.writeResultsToTextFile(reportFile, violations);
 	}
